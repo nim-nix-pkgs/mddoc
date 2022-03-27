@@ -11,6 +11,7 @@
   inputs.src-mddoc-master.ref   = "refs/heads/master";
   inputs.src-mddoc-master.owner = "treeform";
   inputs.src-mddoc-master.repo  = "mddoc";
+  inputs.src-mddoc-master.dir   = "";
   inputs.src-mddoc-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

@@ -11,6 +11,7 @@
   inputs.src-mddoc-0_0_2.ref   = "refs/tags/0.0.2";
   inputs.src-mddoc-0_0_2.owner = "treeform";
   inputs.src-mddoc-0_0_2.repo  = "mddoc";
+  inputs.src-mddoc-0_0_2.dir   = "";
   inputs.src-mddoc-0_0_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
